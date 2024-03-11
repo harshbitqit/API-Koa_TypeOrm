@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "lib": ["es2017"],
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "rootDir": "src"  // Set the root directory to "src"
+  },
+  "include": ["src/**/*.ts"] , // Include TypeScript files within "src"
+  "exclude": ["node_modules", "dist"]
+}
